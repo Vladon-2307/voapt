@@ -1,0 +1,135 @@
+/* global style */
+.section-title {
+    text-align: center;
+}
+
+
+/* header */
+.header{
+    background: url(../img/background.png) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-top{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    background: rgb(255,255,255,50%);
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.logo{
+    height: 50px;
+}
+
+.navigation{
+    flex: 1 1;
+    margin: 0 20px;
+}
+
+.menu{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.phone{
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.header-content{
+    height: 100vh;
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.header-content__text{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+/* services */
+.services{
+    background: #EFEFEF;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.items{
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    row-gap: 30px;
+    column-gap: 30px;
+    margin: 20px 0;
+}
+
+.item-card{
+    width: 220px;
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+.item-card__title{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+/* info */
+.info{
+    padding: 30px 0;
+}
+
+.info-text{
+    width: 70%;
+    margin: 20px auto 0 auto;
+    text-align: justify;
+}
+
+
+/* footer */
+.footer{
+    background: #434343;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+}
+
+.contact-element{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-element__icon{
+    height: 20px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+}
