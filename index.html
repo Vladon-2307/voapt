@@ -4,6 +4,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -18,7 +19,7 @@
             <ul class="menu">
                 <li class="menu-element"><a href="#header" class="menu-element__link">Главная</a></li>
                 <li class="menu-element"><a href="#services" class="menu-element__link">Услуги</a></li>
-                <li class="menu-element"><a href="#info" class="menu-element__link">О компании</a></li>
+                <li class="menu-element"><a href="#info" class="menu-element__link">О&nbsp;компании</a></li>
                 <li class="menu-element"><a href="#footer" class="menu-element__link">Контакты</a></li>
             </ul>
         </nav>
@@ -28,9 +29,8 @@
             +375 (212) 48-13-73
         </a>
         <nav class="navigation-mobile">
-            <input class="burger" id="burger" type="checkbox" />
-            <label class="burger-label" for="burger"><img src="img/burger.png"></label>
-            <ul class="menu-mobile">
+            <img id="burger" class="burger" src="img/burger.png">
+            <ul id="menu-mobile" class="menu-mobile">
                 <li class="menu-mobile-element"><a href="#header" class="menu-mobile-element__link">Главная</a></li>
                 <li class="menu-mobile-element"><a href="#services" class="menu-mobile-element__link">Услуги</a></li>
                 <li class="menu-mobile-element"><a href="#info" class="menu-mobile-element__link">О&nbsp;компании</a></li>
@@ -41,23 +41,23 @@
     <div class="header-content">
         <h1 class="header-content__title">ОАО "Витебскоблагропромтранс"</h1>
         <p class="header-content__text">
+            Основное направление нашей компании — это грузоперевозки.
             Оказываем транспортные услуги на территории РБ и РФ.
-        </p>
-        <p class="header-content__text">
-            Помимо этого, предлагаем услуги автостоянки для большегрузных автомобилей,
-            сдаем в аренду ангар под склад, помещения под офис и т.д.
-            У нас вы можете осуществить автомойку, санитарную обработку грузовых автомобилей
-            по честным ценам.
-        </p>
-        <p class="header-content__text">
-            Основное направление нашей компании это грузоперевозки.
             За время существования мы накопили большой опыт доставки различных грузов.
             Мы растем и развиваемся, расширяя спектр своих возможностей,
             повышаем качество сервиса оказываемых услуг и географию перевозок.
         </p>
+        <p class="header-content__text">
+            Помимо этого, предлагаем услуги автостоянки для большегрузных автомобилей,
+            осуществляем погрузочные работы на Амкодор-352С,
+            сдаём в аренду ангар под складское помещение, помещения под офис,
+            производство, предоставляем ремонтные машино-места для любого автотранспорта.
+            У нас вы можете осуществить автомойку и санитарную обработку грузовых автомобилей.
+        </p>
     </div>
 </header>
-<section id="services" class="services">
+<section class="services">
+    <span id="services" class="services-ref"></span>
     <h2 class="section-title">Услуги</h2>
     <div class="items">
         <div class="item-card">
@@ -69,57 +69,58 @@
         <div class="item-card">
             <img src="img/card/2.jpg" alt="img" class="item-card__img">
             <p class="item-card__title">
-                Перевозка продукций предприятий мясной отрасли
+                Перевозка продукции предприятий мясо-молочной отрасли
             </p>
         </div>
         <div class="item-card">
             <img src="img/card/3.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Перевозка продукций предприятий молочной отрасли
-            </p>
-        </div>
-
-        <div class="item-card">
-            <img src="img/card/4.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Перевозка прочих крупнотоннажных грузов
-            </p>
-        </div>
-        <div class="item-card">
-            <img src="img/card/5.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Перевозка прочих малотоннажных грузов
-            </p>
-        </div>
-        <div class="item-card">
-            <img src="img/card/6.jpg" alt="img" class="item-card__img">
             <p class="item-card__title">
                 Перевозка строительной и кабельной продукции
             </p>
         </div>
 
         <div class="item-card">
+            <img src="img/card/4.jpg" alt="img" class="item-card__img">
+            <p class="item-card__title">
+                Перевозка грузов рефрижераторами
+            </p>
+        </div>
+        <div class="item-card">
+            <img src="img/card/5.jpg" alt="img" class="item-card__img">
+            <p class="item-card__title">
+                Перевозка прочих грузов по Беларуси и СНГ
+            </p>
+        </div>
+        <div class="item-card">
+            <img src="img/card/6.jpg" alt="img" class="item-card__img">
+            <p class="item-card__title">
+                Мойка грузового автотранспорта с санитарной обработкой
+            </p>
+        </div>
+
+        <div class="item-card">
             <img src="img/card/7.jpg" alt="img" class="item-card__img">
             <p class="item-card__title">
-                Перевозка грузов по Беларуси
+                Стоянка большегрузных автомобилей
             </p>
         </div>
         <div class="item-card">
             <img src="img/card/8.jpg" alt="img" class="item-card__img">
             <p class="item-card__title">
-                Перевозка грузов по СНГ
+                Аренда ангара, помещений
             </p>
         </div>
         <div class="item-card">
             <img src="img/card/9.jpg" alt="img" class="item-card__img">
             <p class="item-card__title">
-                Перевозка грузов рефрижераторами
+                Предоставление ремонтных машино-мест для автотранспорта
             </p>
         </div>
 
     </div>
 </section>
-<section id="info" class="info">
+<section class="info">
+    <span id="info" class="info-ref"></span>
     <h2 class="section-title">О компании</h2>
     <p class="info-text">
         В 1974 году Производственным Управлением автомобильного
@@ -157,5 +158,6 @@
     </div>
     <span class="copyright">&copy; 2024 ОАО «Витебскоблагропромтранс»</span>
 </footer>
+<script src="js/burger.js"></script>
 </body>
 </html>
