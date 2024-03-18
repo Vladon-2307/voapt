@@ -1,21 +1,21 @@
-const btn = document.querySelector("#burger")
-const menu = document.querySelector("#menu-mobile")
+const btn = document.querySelectorAll(".m-menu-btn")
+const menu = document.querySelector(".m-menu-list")
 const body = document.body
 
+
 body.addEventListener("click", (e) =>{
-    if(e.srcElement == btn) return
-    menu.classList.remove("menu-mobile__open")
+    if(e.srcElement == btn[0] || e.srcElement == btn[1] ) {
+        menu.classList.toggle("open")
+
+    }else{
+        menu.classList.remove("open")
+    }
 })
 
-btn.addEventListener("click", () => {
-    menu.classList.toggle("menu-mobile__open")
-})
+const links = menu.querySelectorAll('.m-menu-item__link')
 
-const links = menu.querySelectorAll('.menu-mobile-element__link')
-
-// Для каждого элемента меню при клике вызываем ф-ию
 links.forEach((link) => {
     link.addEventListener("click", () =>{
-        menu.classList.remove("menu-mobile__open")
+        menu.classList.remove("open")
     });
 });

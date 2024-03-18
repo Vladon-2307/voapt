@@ -4,159 +4,153 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <title>Витебскоблагропромтранс</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
-<header id="header" class="header">
-    <div class="header-top">
-        <img class="logo" src="img/logo.png" alt="логотип">
-        <nav class="navigation">
+<nav class="navigation">
+    <div class="container">
+        <div class="content">
+            <a class="logo" href="#"><img class="logo-img" src="img/logo.png" alt="logo"></a>
             <ul class="menu">
-                <li class="menu-element"><a href="#header" class="menu-element__link">Главная</a></li>
-                <li class="menu-element"><a href="#services" class="menu-element__link">Услуги</a></li>
-                <li class="menu-element"><a href="#info" class="menu-element__link">О&nbsp;компании</a></li>
-                <li class="menu-element"><a href="#footer" class="menu-element__link">Контакты</a></li>
+                <li class="menu-item"><a href="#services" class="menu-item__link">Услуги</a></li>
+                <li class="menu-item"><a href="#about" class="menu-item__link">О&nbsp;компании</a></li>
+                <li class="menu-item"><a href="#contacts" class="menu-item__link">Контакты</a></li>
             </ul>
-        </nav>
-        <span class="spacer"></span>
-        <a href="tel:+375212481373" class="phone">
-            <img src="img/call-black.png" alt="call" class="phone__icon">
-            +375 (212) 48-13-73
-        </a>
-        <nav class="navigation-mobile">
-            <img id="burger" class="burger" src="img/burger.png">
-            <ul id="menu-mobile" class="menu-mobile">
-                <li class="menu-mobile-element"><a href="#header" class="menu-mobile-element__link">Главная</a></li>
-                <li class="menu-mobile-element"><a href="#services" class="menu-mobile-element__link">Услуги</a></li>
-                <li class="menu-mobile-element"><a href="#info" class="menu-mobile-element__link">О&nbsp;компании</a></li>
-                <li class="menu-mobile-element"><a href="#footer" class="menu-mobile-element__link">Контакты</a></li>
-            </ul>
-        </nav>
+            <a href="tel:+375212481373" class="phone">
+                <img src="img/call-black.png" alt="call" class="phone-icon">
+                <span class="phone-text">+375 (212) 48-13-73</span>
+            </a>
+            <div class="m-menu">
+                <button class="m-menu-btn"><img class="m-menu-btn" src="img/burger.png" alt=""></button>
+                <ul class="m-menu-list">
+                    <li class="m-menu-item"><a href="#services" class="m-menu-item__link">Услуги</a></li>
+                    <li class="m-menu-item"><a href="#about" class="m-menu-item__link">О&nbsp;компании</a></li>
+                    <li class="m-menu-item"><a href="#contacts" class="m-menu-item__link">Контакты</a></li>
+                </ul>
+            </div>
+
+        </div>
     </div>
-    <div class="header-content">
-        <h1 class="header-content__title">ОАО "Витебскоблагропромтранс"</h1>
-        <p class="header-content__text">
-            Основное направление нашей компании — это грузоперевозки.
-            Оказываем транспортные услуги на территории РБ и РФ.
-            За время существования мы накопили большой опыт доставки различных грузов.
-            Мы растем и развиваемся, расширяя спектр своих возможностей,
-            повышаем качество сервиса оказываемых услуг и географию перевозок.
-        </p>
-        <p class="header-content__text">
-            Помимо этого, предлагаем услуги автостоянки для большегрузных автомобилей,
-            осуществляем погрузочные работы на Амкодор-352С,
-            сдаём в аренду ангар под складское помещение, помещения под офис,
-            производство, предоставляем ремонтные машино-места для любого автотранспорта.
-            У нас вы можете осуществить автомойку и санитарную обработку грузовых автомобилей.
-        </p>
+</nav>
+<header>
+    <div class="container">
+        <div class="content">
+            <h1 class="title">ОАО "Витебскоблагропромтранс"</h1>
+            <p class="text">
+                Основное направление нашей компании — это грузоперевозки.
+                Оказываем транспортные услуги на территории РБ и РФ.
+                За время существования мы накопили большой опыт доставки различных грузов.
+                Мы растем и развиваемся, расширяя спектр своих возможностей,
+                повышаем качество сервиса оказываемых услуг и географию перевозок.
+            </p>
+            <p class="text">
+                Помимо этого, предлагаем услуги автостоянки для большегрузных автомобилей,
+                осуществляем погрузочные работы на Амкодор-352С,
+                сдаём в аренду ангар под складское помещение, помещения под офис,
+                производство, предоставляем ремонтные машино-места для любого автотранспорта.
+                У нас вы можете осуществить автомойку и санитарную обработку грузовых автомобилей.
+            </p>
+        </div>
     </div>
 </header>
 <section class="services">
-    <span id="services" class="services-ref"></span>
-    <h2 class="section-title">Услуги</h2>
-    <div class="items">
-        <div class="item-card">
-            <img src="img/card/1.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Перевозка скота специализированным транспортом
-            </p>
+    <span id="services" class="point"></span>
+    <div class="container">
+        <div class="content">
+            <h1 class="title">Услуги</h1>
+            <div class="grid">
+                <div class="card">
+                    <img class="img" src="img/card/1.jpg" alt="img">
+                    <span class="desc">Перевозка скота специализированным транспортом</span>
+                </div>
+                <div class="card">
+                    <img class="img" src="img/card/2.jpg" alt="img">
+                    <span class="desc">Перевозка продукции предприятий мясо-молочной отрасли</span>
+                </div>
+                <div class="card">
+                    <img class="img" src="img/card/3.jpg" alt="img">
+                    <span class="desc">Перевозка строительной и кабельной продукции</span>
+                </div>
+                <div class="card">
+                    <img class="img" src="img/card/4.jpg" alt="img">
+                    <span class="desc">Перевозка грузов рефрижераторами</span>
+                </div>
+                <div class="card">
+                    <img class="img" src="img/card/5.jpg" alt="img">
+                    <span class="desc">Перевозка прочих грузов по Беларуси и СНГ</span>
+                </div>
+                <div class="card">
+                    <img class="img" src="img/card/6.jpg" alt="img">
+                    <span class="desc">Мойка грузового автотранспорта с санитарной обработкой</span>
+                </div>
+                <div class="card">
+                    <img class="img" src="img/card/7.jpg" alt="img">
+                    <span class="desc">Стоянка большегрузных автомобилей</span>
+                </div>
+                <div class="card">
+                    <img class="img" src="img/card/8.jpg" alt="img">
+                    <span class="desc">Аренда ангара, помещений</span>
+                </div>
+                <div class="card">
+                    <img class="img" src="img/card/9.jpg" alt="img">
+                    <span class="desc">Предоставление ремонтных машино-мест для автотранспорта</span>
+                </div>
+            </div>
         </div>
-        <div class="item-card">
-            <img src="img/card/2.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Перевозка продукции предприятий мясо-молочной отрасли
-            </p>
-        </div>
-        <div class="item-card">
-            <img src="img/card/3.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Перевозка строительной и кабельной продукции
-            </p>
-        </div>
-
-        <div class="item-card">
-            <img src="img/card/4.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Перевозка грузов рефрижераторами
-            </p>
-        </div>
-        <div class="item-card">
-            <img src="img/card/5.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Перевозка прочих грузов по Беларуси и СНГ
-            </p>
-        </div>
-        <div class="item-card">
-            <img src="img/card/6.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Мойка грузового автотранспорта с санитарной обработкой
-            </p>
-        </div>
-
-        <div class="item-card">
-            <img src="img/card/7.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Стоянка большегрузных автомобилей
-            </p>
-        </div>
-        <div class="item-card">
-            <img src="img/card/8.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Аренда ангара, помещений
-            </p>
-        </div>
-        <div class="item-card">
-            <img src="img/card/9.jpg" alt="img" class="item-card__img">
-            <p class="item-card__title">
-                Предоставление ремонтных машино-мест для автотранспорта
-            </p>
-        </div>
-
     </div>
 </section>
-<section class="info">
-    <span id="info" class="info-ref"></span>
-    <h2 class="section-title">О компании</h2>
-    <p class="info-text">
-        В 1974 году Производственным Управлением автомобильного
-        транспорта «Белмясомолтранс» в Витебске была создана автобаза №11
-        для расширения централизованных перевозок скота и молока.
-    </p>
-    <p class="info-text">
-        В феврале 1987 года автобаза №11 была переименована в Витебский
-        областной автокомбинат «Белагропромтранс», а затем в ноябре 1987 года – в
-        Витебское областное производственное объединение транспорта «Облагропромтранс».
-    </p>
-    <p class="info-text">
-        Открытое акционерное общество «Витебскоблагропромтранс» создано на основании
-        решения Витебского Областного исполнительного комитета от 23 декабря 1999 года.
-    </p>
-    <p class="info-text">
-        Компания с 1973 года успешно занимается
-        грузоперевозками на территории Беларуси, стран СНГ.
-    </p>
-</section>
-<footer id="footer" class="footer">
-    <div class="contact">
-        <a href="mailto:vitoblapt@rambler.ru" class="contact-element">
-            <img src="img/email.png" alt="mail" class="contact-element__icon">
-            vitoblapt@rambler.ru
-        </a>
-        <a href="tel:+375212481373" class="contact-element">
-            <img src="img/call-white.png" alt="phone" class="contact-element__icon">
-            +375 (212)-48-13-73
-        </a>
-        <a href="tel:+375212481373" class="contact-element">
-            <img src="img/fax.png" height="" alt="" class="contact-element__icon">
-            +375 (212)-48-13-73
-        </a>
+<section class="about">
+    <span id="about" class="point"></span>
+    <div class="container">
+        <div class="content">
+            <h1 class="title">О&nbsp;компании</h1>
+            <p class="text">
+                В 1974 году Производственным Управлением автомобильного
+                транспорта «Белмясомолтранс» в Витебске была создана автобаза №11
+                для расширения централизованных перевозок скота и молока.
+            </p>
+            <p class="text">
+                В феврале 1987 года автобаза №11 была переименована в Витебский
+                областной автокомбинат «Белагропромтранс», а затем в ноябре 1987 года – в
+                Витебское областное производственное объединение транспорта «Облагропромтранс».
+            </p>
+            <p class="text">
+                Открытое акционерное общество «Витебскоблагропромтранс» создано на основании
+                решения Витебского Областного исполнительного комитета от 23 декабря 1999 года.
+            </p>
+            <p class="text">
+                Компания с 1973 года успешно занимается
+                грузоперевозками на территории Беларуси, стран СНГ.
+            </p>
+        </div>
     </div>
-    <span class="copyright">&copy; 2024 ОАО «Витебскоблагропромтранс»</span>
+</section>
+<footer>
+    <span id="contacts" class="point"></span>
+    <div class="container">
+        <div class="content">
+            <div class="contacts">
+                <a href="mailto:vitoblapt@rambler.ru" class="link">
+                    <img src="img/email.png" alt="mail" class="icon">
+                    vitoblapt@rambler.ru
+                </a>
+                <a href="tel:+375212481373" class="link">
+                    <img src="img/call-white.png" alt="phone" class="icon">
+                    +375 (212)-48-13-73
+                </a>
+                <a href="tel:+375212481373" class="link">
+                    <img src="img/fax.png" height="" alt="" class="icon">
+                    +375 (212)-48-13-73
+                </a>
+            </div>
+            <span class="copyright">&copy; 2024 ОАО «Витебскоблагропромтранс»</span>
+        </div>
+    </div>
 </footer>
 <script src="js/burger.js"></script>
 </body>

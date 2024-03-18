@@ -1,0 +1,21 @@
+.about{
+    background: lightgray;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    .content{
+        width: 100%;
+    }
+
+    .title{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .text{
+        font-weight: 500;
+        text-align: justify;
+        padding: 10px 15px;
+    }
+}
