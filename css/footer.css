@@ -2,7 +2,7 @@ footer{
     position: relative;
     background: #434343;
     color: white;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 10px;
 
     .content{
@@ -13,30 +13,10 @@ footer{
         gap: 10px;
     }
 
-    .contacts{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-    .icon{
-        margin-right: 5px;
-    }
-
-    .link{
-        display: flex;
-        align-items: center;
-    }
 
     .copyright{
         width: 100%;
         text-align: center;
     }
 
-    @media (max-width: 767px){
-        .contacts{
-            flex-direction: column;
-            gap: 10px
-        }
-    }
 }
