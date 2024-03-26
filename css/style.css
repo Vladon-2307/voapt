@@ -264,6 +264,11 @@ header .text {
     font-weight: 500;
 }
 
+header .fs {
+    font-size: 20px;
+}
+
+
 @media (max-width: 767px) and (min-width: 480px) {
     header .title {
         font-size: 24px;
@@ -272,6 +277,10 @@ header .text {
     header .text {
         font-size: 14px;
         text-align: justify;
+    }
+
+    header .fs {
+        font-size: 18px;
     }
 }
 
@@ -287,6 +296,10 @@ header .text {
     header .text {
         font-size: 12px;
         text-align: justify;
+    }
+
+    header .fs {
+        font-size: 16px;
     }
 }
 
@@ -389,6 +402,7 @@ header .text {
         top: 50px;
     }
 }
+
 
 
  
